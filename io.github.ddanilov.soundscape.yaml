@@ -19,9 +19,9 @@ modules:
   - name: soundscape
     buildsystem: cmake-ninja
     config-opts:
-      - -DAPP_VERSION=1.4.8-flathub
+      - -DAPP_VERSION=1.4.9-flathub
     sources:
       - type: git
         url: https://github.com/ddanilov/soundscape.git
-        tag: 1.4.8
-        commit: f63026bf1d76b550b2f1a66154fd798e2f0c3488
+        tag: 1.4.9
+        commit: fd990e64bf7e36cb4c74f1086bb6ad45153363d8
